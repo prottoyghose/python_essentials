@@ -14,8 +14,8 @@ f="global"
 
 # Global vs. local variables in functions
 def someFunction():
-    global f
-    f = "def"
+    #global f
+    #f = "def"
     print(f)
 
 someFunction()
